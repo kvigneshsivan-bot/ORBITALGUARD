@@ -2,7 +2,11 @@ from pathlib import Path
 import os
 
 DATABASE_URL = f"sqlite:///{Path(__file__).resolve().parent.parent / 'satellite.db'}"
-ALLOWED_ORIGINS = ["http://localhost:5173", "http://127.0.0.1:5173"]
+ALLOWED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+    os.getenv("FRONTEND_ORIGIN", "https://kvigneshsivan-bot.github.io"),
+]
 TELEMETRY_MODE = os.getenv("TELEMETRY_MODE", "simulation").lower()
 INGEST_API_KEY = os.getenv("INGEST_API_KEY", "")
 
