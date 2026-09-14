@@ -1,7 +1,8 @@
 from pathlib import Path
 import os
 
-DATABASE_URL = f"sqlite:///{Path(__file__).resolve().parent.parent / 'satellite.db'}"
+DATABASE_PATH = Path("/tmp/orbitalguard.db") if os.getenv("VERCEL") else Path(__file__).resolve().parent.parent / "satellite.db"
+DATABASE_URL = f"sqlite:///{DATABASE_PATH}"
 ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
