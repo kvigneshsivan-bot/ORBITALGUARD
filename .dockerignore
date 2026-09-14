@@ -1,0 +1,8 @@
+.git
+.github
+frontend
+backend/satellite.db
+backend/__pycache__
+backend/app/**/__pycache__
+backend/tests
+node_modules
