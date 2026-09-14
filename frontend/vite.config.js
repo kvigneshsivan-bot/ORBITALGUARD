@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-	base: '/ORBITALGUARD/',
+	base: process.env.VERCEL ? '/' : '/ORBITALGUARD/',
 	plugins: [react()],
 	server: {
 		proxy: {
