@@ -1,0 +1,73 @@
+:root {
+  --muted: #a5c2d0;
+}
+
+body {
+  color: #edf8fc;
+}
+
+.shell::before {
+  opacity: 0.58 !important;
+}
+
+.sidebar::before {
+  opacity: 0.62 !important;
+}
+
+.sidebar,
+.panel,
+.metric {
+  background-color: rgba(3, 18, 32, 0.94) !important;
+}
+
+nav button {
+  color: #a4c1ce;
+}
+
+.eyebrow,
+.link,
+.sat-top > b {
+  color: #78dff4;
+}
+
+.page-title h1,
+.intro h2,
+.section-heading h2,
+.panel-head h2,
+.sat-copy h3,
+.latest h3 {
+  color: #f1fbff;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.55);
+}
+
+.page-title p:not(.eyebrow),
+.section-heading small,
+.panel-head small,
+.sat-copy p,
+.sat-copy > small,
+.latest small,
+.analytics > p,
+.simulation > p {
+  color: #a7c4d1;
+}
+
+.metric > span {
+  color: #a0becb;
+}
+
+.metric em {
+  color: #9bc0cf;
+}
+
+td {
+  color: #c5dbe3;
+}
+
+.alert-row strong {
+  color: #c7dfe7;
+}
+
+.chart-select,
+.header-actions select {
+  color: #e5f7fb;
+}

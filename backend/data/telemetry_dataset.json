@@ -1,0 +1,47 @@
+[
+  {
+    "timestamp": "2026-09-14T10:00:00Z",
+    "satellite_id": "SAT-01",
+    "temperature": 28.4,
+    "battery_soc": 82.0,
+    "battery_voltage": 12.4,
+    "battery_current": 2.8,
+    "solar_power": 74.0,
+    "signal_strength": 88.0,
+    "cpu_temperature": 48.0,
+    "cpu_load": 36.0,
+    "attitude_error": 0.1,
+    "attitude_status": "NOMINAL",
+    "communication_status": "NOMINAL"
+  },
+  {
+    "timestamp": "2026-09-14T10:01:00Z",
+    "satellite_id": "SAT-03",
+    "temperature": 72.0,
+    "battery_soc": 18.0,
+    "battery_voltage": 8.6,
+    "battery_current": 1.0,
+    "solar_power": 6.0,
+    "signal_strength": 18.0,
+    "cpu_temperature": 84.0,
+    "cpu_load": 94.0,
+    "attitude_error": 3.2,
+    "attitude_status": "ABNORMAL",
+    "communication_status": "FAILED"
+  },
+  {
+    "timestamp": "2026-09-14T10:02:00Z",
+    "satellite_id": "SAT-02",
+    "temperature": 46.0,
+    "battery_soc": 55.0,
+    "battery_voltage": 11.6,
+    "battery_current": 2.4,
+    "solar_power": 42.0,
+    "signal_strength": 72.0,
+    "cpu_temperature": 68.0,
+    "cpu_load": 84.0,
+    "attitude_error": 0.8,
+    "attitude_status": "NOMINAL",
+    "communication_status": "DEGRADED"
+  }
+]
